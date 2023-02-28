@@ -1,8 +1,9 @@
 import "./App.css";
-import StripedRowExample from "./components/table";
+import React from "react";
+import InstructionTable from "./components/table";
 
 function App() {
-  return <StripedRowExample />;
+  return <InstructionTable />;
 }
 
 export default App;
